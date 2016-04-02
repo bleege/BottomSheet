@@ -25,6 +25,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button3.setOnClickListener(this);
 
         bottomSheetBehavior = BottomSheetBehavior.from(bottomSheet);
+
+        // Make sure that when PeekHeight Is Used it's possible to dismiss BottomSheet completely.
+        // If this isn't done it'll only go back to it's PeekHeight instead of completely off screen.
+        bottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
+            @Override
+            public void onStateChanged(View bottomSheet, int newState) {
+                if (newState == BottomSheetBehavior.STATE_COLLAPSED) {
+                    bottomSheetBehavior.setPeekHeight(0);
+                }
+            }
+
+            @Override
+            public void onSlide(View bottomSheet, float slideOffset) {
+            }
+        });
     }
 
     /**
