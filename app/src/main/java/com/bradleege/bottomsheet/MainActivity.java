@@ -1,6 +1,7 @@
 package com.bradleege.bottomsheet;
 
 import android.support.design.widget.BottomSheetBehavior;
+import android.support.design.widget.BottomSheetDialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -57,6 +58,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button_2: {
                 bottomSheetBehavior.setPeekHeight(300);
                 bottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
+                break;
+            }
+            case R.id.button_3: {
+                BottomSheetDialogFragment bottomSheetDialogFragment = new MyBottomSheetDialogFragment();
+                bottomSheetDialogFragment.show(getSupportFragmentManager(), bottomSheetDialogFragment.getTag());
                 break;
             }
         }
