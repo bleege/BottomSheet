@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">BottomSheet</string>
+
+    <string name="button_one">Button One</string>
+    <string name="button_two">Button Two</string>
+    <string name="button_three">Button Three</string>
+
+    <string name="ipsum">
+        Bacon ipsum dolor amet turducken turkey pork rump porchetta. Kielbasa picanha meatball sausage capicola pig turducken shoulder ground round meatloaf beef ribs ball tip beef. Meatball shank short ribs, meatloaf corned beef rump pork belly brisket salami. Boudin strip steak t-bone spare ribs shoulder. Landjaeger leberkas capicola, ground round pork belly beef ribs alcatra.
+
+        Tail rump pork belly ham hock. Leberkas chicken doner, meatloaf ribeye brisket short loin frankfurter pork cupim pork loin. Chuck doner venison tri-tip ball tip shoulder jowl turducken jerky kevin pig kielbasa bresaola. Pork pork chop ground round ham hock tongue hamburger boudin, frankfurter biltong ribeye pork belly. Porchetta frankfurter andouille pork loin, flank shank cupim pork meatball ribeye alcatra kielbasa bacon leberkas.
+
+        Pancetta tenderloin chuck salami, andouille turkey ribeye flank ham hock doner swine. Alcatra ground round pork belly frankfurter, beef ribs andouille jowl filet mignon ball tip meatloaf biltong kielbasa shank venison jerky. Rump pancetta filet mignon chicken. Bacon rump biltong, landjaeger kielbasa bresaola ham hock jerky corned beef leberkas. Short ribs venison frankfurter, fatback ham boudin tri-tip t-bone pork belly. Pancetta jowl ground round pork chop kielbasa tri-tip. Tenderloin prosciutto strip steak, bresaola boudin andouille rump.
+
+        Rump beef ribs salami pig, chicken ribeye chuck short ribs beef sirloin. Pork belly spare ribs doner frankfurter pork capicola. Swine tongue pork belly beef ribs, andouille porchetta sirloin bresaola prosciutto. Prosciutto pancetta ham, cupim picanha sausage bresaola capicola drumstick flank doner jowl chuck. Andouille salami spare ribs bresaola, turkey ground round sausage cupim turducken pork shoulder. Ribeye andouille cow pig tri-tip pork cupim tongue beef pork belly jowl frankfurter pancetta shankle filet mignon. Short ribs pastrami hamburger, bresaola kevin ball tip kielbasa alcatra turducken shoulder beef t-bone andouille fatback sausage.
+
+        Landjaeger shoulder short ribs bacon pork loin doner prosciutto turkey pork. Andouille ground round flank biltong. Flank tail drumstick, fatback jerky brisket pig landjaeger pork belly cow hamburger. Picanha bresaola beef, sausage alcatra tri-tip filet mignon chicken leberkas andouille biltong.
+    </string>
+
 </resources>
